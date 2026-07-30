@@ -49,6 +49,10 @@ console.log(invites);
 // A lista tem o ano de validade de cada remédio da caixinha.
 // Fiquem só com os que vencem DEPOIS de 2026 e mostrem o resultado.
 const expirationYears = [2024, 2027, 2023, 2030];
+const validatedMedication = expirationYears.filter((year)=>{
+    return year >= 2026;
+})
+console.log(`Remédios com validade acima de 2026:  ${validatedMedication}`)
 
 // escreva aqui 👇
 
@@ -61,7 +65,15 @@ const expirationYears = [2024, 2027, 2023, 2030];
 const rides = [12, 8, 25, 30];
 
 // escreva aqui 👇
+const ridesBiggerThen20 = rides.find((r)=>{
+    return r > 20;
+})
+console.log(ridesBiggerThen20)
 
+const ridesBiggerThen100 = rides.find((r)=>{
+    return r > 100
+})
+console.log(ridesBiggerThen100)
 // ==================================================================
 //   DESAFIO 5 — ⭐ Encomendas dentro do limite 📦          [every]
 // ==================================================================
@@ -71,6 +83,10 @@ const parcels = [2, 5, 3];
 const heavyParcels = [2, 12, 4];
 
 // escreva aqui 👇
+const dentroDoLimite = heavyParcels.every((hp)=>{
+    return hp <= 10; 
+})
+console.log(dentroDoLimite)
 
 // ==================================================================
 //   DESAFIO 6 — ⭐ Gols do campeonato ⚽          [reduce]
