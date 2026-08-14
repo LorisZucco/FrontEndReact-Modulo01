@@ -1,0 +1,18 @@
+.highlights {
+  background-color: yellow;
+}
+
+.text-hightlight {
+  color: green;
+}
+
+#text-decription {
+  color: cyan;
+}
+
+h1 {
+  color: blue;
+}
+.list li {
+  background-color: goldenrod;
+}
