@@ -1,0 +1,38 @@
+/* Reset do CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 26px;
+}
+#centered {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  margin: 0 auto;
+}
+#inline {
+  width: 1024px;
+  height: 400px;
+}
+#block {
+  display: block;
+}
+button {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+button:hover {
+  background-color: black;
+  color: red;
+  transition-duration: 1s;
+}
+a:focus-visible {
+  outline: 2px solid red;
+  outline-offset: 2px;
+}

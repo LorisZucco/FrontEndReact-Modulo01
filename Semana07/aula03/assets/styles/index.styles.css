@@ -1,0 +1,23 @@
+#without-spacing {
+  margin: 0;
+}
+#with-border {
+  border: 2px solid blue;
+  border-radius: 12px;
+  text-align: center;
+}
+#with-padding {
+  padding: 32px 0 0 10px;
+  border: 1px solid black;
+}
+.links-list li {
+  border-left: 2px solid red;
+  padding-left: 6px;
+  list-style: none;
+}
+#square {
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
