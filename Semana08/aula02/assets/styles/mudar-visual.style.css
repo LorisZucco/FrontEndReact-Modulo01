@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f5f5dc;
+  border: 1px solid #3fd8a5;
+  color: #3fd8a5;
+  padding: 16px;
+}
+.done {
+  background-color: #3f94df;
+  border-color: #8a2be2;
+  color: black;
+}
+.canceled {
+  background-color: #ff0000;
+  border-color: #510202;
+  color: white;
+}
+.btn-succes {
+  padding: 4px;
+  margin-top: 8px;
+  background-color: #3f94df;
+  color: #f5f5dc;
+  border-radius: 6px;
+}
+.btn-cancel {
+  padding: 4px;
+  margin-top: 8px;
+  background-color: #df3f44;
+  color: #f5f5dc;
+  border-radius: 6px;
+}
+.detail {
+  font-size: 20px;
+}
