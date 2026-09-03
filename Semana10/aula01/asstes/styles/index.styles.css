@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.red {
+  background-color: #ff0000;
+  height: 100px;
+}
+.blue {
+  background-color: #0000ff;
+  height: 100px;
+}
+.white {
+  background-color: #ffffff;
+  height: 100px;
+}
+.franca {
+  display: flex;
+  height: 200px;
+  width: 100vw;
+}
+.holanda {
+  height: 200px;
+  width: 100vw;
+}
+.red-franca {
+  background-color: #ff0000;
+  height: 100px;
+  width: 50px;
+}
+.blue-franca {
+  background-color: #0000ff;
+  height: 100px;
+  width: 50px;
+}
+.white-franca {
+  background-color: #ffffff;
+  height: 100px;
+  width: 50px;
+}
