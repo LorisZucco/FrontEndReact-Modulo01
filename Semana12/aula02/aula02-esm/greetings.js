@@ -1,5 +1,5 @@
-function hello() {
-  console.log("Hello User!");
+function hello(userName) {
+  console.log("Hello, ${userName}");
 }
 
 export default hello;
