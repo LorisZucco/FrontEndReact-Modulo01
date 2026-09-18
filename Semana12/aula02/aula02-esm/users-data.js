@@ -15,6 +15,11 @@ const users = [
 
 export function ageVerify(age) {
   console.log("Idade: ", age);
+  if (age >= 18) {
+    console.log("Maior de idade!");
+  } else {
+    console.log("Menor de idade!");
+  }
 }
 
 export default users;
