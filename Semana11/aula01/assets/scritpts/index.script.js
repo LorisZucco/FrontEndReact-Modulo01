@@ -1,3 +1,6 @@
+import users from "../data/users-data.js";
+console.log(users);
+
 console.log("Javascript Avançado!");
 
 const uf = document.getElementById("uf");
