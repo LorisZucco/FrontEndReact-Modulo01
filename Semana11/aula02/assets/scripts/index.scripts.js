@@ -21,6 +21,7 @@ form.addEventListener("submit", (e) => {
   savedNote = JSON.parse(localStorage(notesKey));
   console.log("Dado que veio do local storage: ", savedNote);
 });
+
 // console.log("Dado que veio do local storage: ", savedNote);
 
 // const items = ["café", "arroz", "leite"];
@@ -47,3 +48,9 @@ form.addEventListener("submit", (e) => {
 // const savedUsers = localStorage.getItem(JSON.parse("usuarios-lista"));
 
 // console.log(savedUsers);
+
+const clearButton = document.getElementById("clear-button");
+
+clearButton.addEventListener("click", () => {
+  localStorage.clear();
+});
